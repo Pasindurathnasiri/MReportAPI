@@ -30,6 +30,7 @@ namespace MReportAPI
         {
             services.AddControllers();
             services.AddSwaggerGen();
+            services.AddCors();
             services.AddDbContext<MReportAPIContext>(options =>
                     options.UseSqlServer(Configuration.GetConnectionString("MReportAPIContext")));
             services.AddScoped<EFCorePatientRepository>();
@@ -38,20 +39,23 @@ namespace MReportAPI
             services.AddScoped<EFCoreHospitalRepository>();
             services.AddScoped<EFCoreReportRepository>();
             services.AddScoped<EFCoreSuperAdminRepository>();
+           
 
 
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
-        public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
             }
 
-            app.UseHttpsRedirection();
 
+            app.UseCors(options =>
+                   options.AllowAnyOrigin().AllowAnyMethod().AllowAnyHeader());
+            //app.UseMvc();
             app.UseRouting();
             app.UseSwagger();
             app.UseSwaggerUI(c =>
