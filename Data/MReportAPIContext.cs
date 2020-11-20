@@ -28,7 +28,7 @@ namespace MReportAPI.Data
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer(@"Data Source=.\SQLEXPRESS;Initial Catalog=MReport;Integrated Security=True");
+            optionsBuilder.UseSqlServer(@"Server=tcp:mreportserver.database.windows.net,1433;Initial Catalog=MReport;Persist Security Info=False;User ID=mreportadmin;Password=Pasindu@kln6644;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");
         }
     }
 }

@@ -159,3 +159,6 @@ H:\Route\Hospital\MReportAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swag
 H:\Route\Hospital\MReportAPI\obj\Debug\netcoreapp3.1\MReportAPI.csproj.CoreCompileInputs.cache
 H:\Route\Hospital\MReportAPI\obj\Debug\netcoreapp3.1\MReportAPI.MvcApplicationPartsAssemblyInfo.cs
 H:\Route\Hospital\MReportAPI\obj\Debug\netcoreapp3.1\MReportAPI.MvcApplicationPartsAssemblyInfo.cache
+H:\Route\Hospital\MReportAPI\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.MReportAPI - Web Deploy.json
+H:\Route\Hospital\MReportAPI\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\MReportAPI - Web Deploy\mssql1.arm.json
+H:\Route\Hospital\MReportAPI\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\MReportAPI - Web Deploy\profile.arm.json
