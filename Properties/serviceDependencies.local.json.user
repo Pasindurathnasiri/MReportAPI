@@ -1,4 +1,22 @@
 {
-  "dependencies": {},
-  "parameters": {}
+  "dependencies": {
+    "secrets1": {
+      "restored": true,
+      "restoreTime": "2020-11-23T09:24:45.8106166Z"
+    },
+    "mssql1": {
+      "restored": true,
+      "restoreTime": "2020-11-23T09:25:04.9350392Z"
+    }
+  },
+  "parameters": {
+    "mssql1.subscriptionId": {
+      "Type": "subscription",
+      "Value": "e2ab5a62-2cb7-4438-b459-79dc069defb8"
+    },
+    "mssql1.resourceGroupName": {
+      "Type": "resourceGroup",
+      "Value": "MReportRG"
+    }
+  }
 }

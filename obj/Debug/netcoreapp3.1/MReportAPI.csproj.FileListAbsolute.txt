@@ -156,9 +156,14 @@ H:\Route\Hospital\MReportAPI\bin\Debug\netcoreapp3.1\Microsoft.OpenApi.dll
 H:\Route\Hospital\MReportAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.Swagger.dll
 H:\Route\Hospital\MReportAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerGen.dll
 H:\Route\Hospital\MReportAPI\bin\Debug\netcoreapp3.1\Swashbuckle.AspNetCore.SwaggerUI.dll
+H:\Route\Hospital\MReportAPI\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.MReportAPI - Web Deploy.json
+H:\Route\Hospital\MReportAPI\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\MReportAPI - Web Deploy\profile.arm.json
+H:\Route\Hospital\MReportAPI\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\local\mssql1.arm.json
+H:\Route\Hospital\MReportAPI\bin\Debug\netcoreapp3.1\Azure.Core.dll
+H:\Route\Hospital\MReportAPI\bin\Debug\netcoreapp3.1\Azure.Identity.dll
+H:\Route\Hospital\MReportAPI\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\MReportAPI - Web Deploy\secrets1.arm.json
+H:\Route\Hospital\MReportAPI\bin\Debug\netcoreapp3.1\Azure.Extensions.AspNetCore.Configuration.Secrets.dll
+H:\Route\Hospital\MReportAPI\bin\Debug\netcoreapp3.1\Azure.Security.KeyVault.Secrets.dll
 H:\Route\Hospital\MReportAPI\obj\Debug\netcoreapp3.1\MReportAPI.csproj.CoreCompileInputs.cache
 H:\Route\Hospital\MReportAPI\obj\Debug\netcoreapp3.1\MReportAPI.MvcApplicationPartsAssemblyInfo.cs
 H:\Route\Hospital\MReportAPI\obj\Debug\netcoreapp3.1\MReportAPI.MvcApplicationPartsAssemblyInfo.cache
-H:\Route\Hospital\MReportAPI\bin\Debug\netcoreapp3.1\Properties\serviceDependencies.MReportAPI - Web Deploy.json
-H:\Route\Hospital\MReportAPI\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\MReportAPI - Web Deploy\mssql1.arm.json
-H:\Route\Hospital\MReportAPI\bin\Debug\netcoreapp3.1\Properties\ServiceDependencies\MReportAPI - Web Deploy\profile.arm.json

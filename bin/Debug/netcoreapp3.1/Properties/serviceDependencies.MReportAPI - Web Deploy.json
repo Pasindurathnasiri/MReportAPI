@@ -1,9 +1,14 @@
 {
   "dependencies": {
     "mssql1": {
-      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/mreportserver/databases/MReport",
-      "type": "mssql.azure",
+      "type": "mssql.onprem",
       "connectionId": "MReportAPIContext",
+      "secretStore": "AzureAppSettings"
+    },
+    "secrets1": {
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.KeyVault/vaults/MReportAPIvault",
+      "type": "secrets.keyVault",
+      "connectionId": "VaultUri",
       "secretStore": "AzureAppSettings"
     }
   }
