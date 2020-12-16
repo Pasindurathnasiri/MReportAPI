@@ -27,6 +27,7 @@ namespace MReportAPI.Models
         public string District { get; set; }
         public string BloodGroup { get; set; }
         public string Condition { get; set; }
+        public string Imgpath { get; set; }
 
     }
 }

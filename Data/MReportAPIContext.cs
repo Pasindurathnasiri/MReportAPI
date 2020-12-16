@@ -26,6 +26,8 @@ namespace MReportAPI.Data
 
         public DbSet<MReportAPI.Models.SuperAdmin> SuperAdmin { get; set; }
 
+        public DbSet<MReportAPI.Models.Vaccine> Vaccine { get; set; }
+
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(@"Server=tcp:mreportserver.database.windows.net,1433;Initial Catalog=MReport;Persist Security Info=False;User ID=mreportadmin;Password=Pasindu@kln6644;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;");

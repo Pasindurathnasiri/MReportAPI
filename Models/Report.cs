@@ -14,6 +14,7 @@ namespace MReportAPI.Models
         public string DocRegNo { get; set; }
         public string PatientRegNo { get; set; }
         public string ImgLink { get; set; }
+        public string ImgLink2 { get; set; }
 
     }
 }

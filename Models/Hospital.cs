@@ -19,6 +19,7 @@ namespace MReportAPI.Models
         public string Password { get; set; }
         public string OwnerName { get; set; }
         public string OwnerMobile { get; set; }
+        public string Imgpath { get; set; }
 
 
 

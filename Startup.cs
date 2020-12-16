@@ -39,6 +39,7 @@ namespace MReportAPI
             services.AddScoped<EFCoreHospitalRepository>();
             services.AddScoped<EFCoreReportRepository>();
             services.AddScoped<EFCoreSuperAdminRepository>();
+            services.AddScoped<EFCoreVaccineRepository>();
            
 
 
